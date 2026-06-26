@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "TypeLingo — Pratique digitação com legendas",
   description:
     "Aprenda idiomas e melhore sua velocidade de digitação completando diálogos de legendas .srt",
+  icons: {
+    icon: "/keyboard.png",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
